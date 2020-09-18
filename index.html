@@ -11,6 +11,26 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+ <div class="wrapper">
+   <header>
+     <h1>Gennaio 2018</h1>
+     <div class="prev">&lt;- Precedente</div>
+     <div class="next">Successivo -&gt;</div>
+   </header>
+
+   <ul id="days">
+
+
+   </ul>
+
+ </div>
+ <!-- <li class="day holiday">1 Gennaio <span class="holidayTipe"> -Capodanno</span></li> -->
+ <script id="day-template" type="text/x-handlebars-template">
+
+    <li class="day">{{day}} {{month}}</li>
+
+ </script>
+
 
   <script src="script.js" charset="utf-8"></script>
 </body>
