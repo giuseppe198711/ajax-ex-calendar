@@ -1,9 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.prev, .next {
+  margin: 20px 0;
+  padding: 5px;
+}
+
 .wrapper {
-  width: 500px;
+  width: 1190px;
   margin: 0 auto;
 }
 
-.holiday {
+h1 {
+  color: #498AF4;
+}
+
+button {
+  border-radius: 20px;
+  background-color: yellow;
+  color: #498AF4;
+  border: 2px solid #498AF4;
+  outline: none;
+  cursor: pointer;
+}
+
+#list-days {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+#list-days li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 170px;
+  height: 80px;
+  border: 1px solid black;
+  background-color: #498AF4;
+
+}
+
+.day {
+  color: white;
+}
+
+.holiday  {
   color: red;
   font-weight: bold;
 }
